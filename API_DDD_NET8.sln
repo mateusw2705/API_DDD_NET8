@@ -13,15 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infraestrutura", "4 - I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Entidades", "5 - Entidades", "{E69FEC45-C6E1-4F93-BBC7-7AE8A4188398}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicação", "Aplicação\Aplicação.csproj", "{6D36BF21-F091-425C-8AA8-1095B364F279}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aplicação", "Aplicação\Aplicação.csproj", "{6D36BF21-F091-425C-8AA8-1095B364F279}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{880F9F3D-5D13-494A-914F-612386BC0861}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Dominio\Dominio.csproj", "{880F9F3D-5D13-494A-914F-612386BC0861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfraEstrtutura", "InfraEstrtutura\InfraEstrtutura.csproj", "{2BB011DF-0F3D-4636-BD61-12DE050F5447}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfraEstrtutura", "InfraEstrtutura\InfraEstrtutura.csproj", "{2BB011DF-0F3D-4636-BD61-12DE050F5447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{BB860DA2-A396-4ABA-B3C4-B6F4290FCC71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entidades", "Entidades\Entidades.csproj", "{BB860DA2-A396-4ABA-B3C4-B6F4290FCC71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApi", "WepApi\WepApi.csproj", "{666BBF88-2318-44F5-884E-5BEB0D63210E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WepApi", "WepApi\WepApi.csproj", "{666BBF88-2318-44F5-884E-5BEB0D63210E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

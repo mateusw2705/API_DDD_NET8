@@ -36,7 +36,7 @@ namespace InfraEstrtutura.Configuracoes
 
         public string ObterStringConexao()
         {
-            string strcon = "Server=DESKTOP-61PN5C8\\SQLEXPRESS;Initial Catalog=API_DDD;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True;";
+            string strcon = "Data Source=DESKTOP-61PN5C8\\SQLEXPRESS;Initial Catalog=API_DDD;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True";
             return strcon;
         }
 

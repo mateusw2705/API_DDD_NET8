@@ -19,12 +19,17 @@ namespace Aplicação.Aplicacoes
 
         public async Task<bool> AdicionaUsuario(string email, string senha, int idade, string celular)
         {
-            return await _IUsuario.AdicionaUsuario(email,)
+            return await _IUsuario.AdicionaUsuario(email, senha, idade, celular);
         }
 
-        public Task<bool> ExisteUsuario(string email, string senha)
+        public async Task<bool> ExisteUsuario(string email, string senha)
         {
-            throw new NotImplementedException();
+            return await _IUsuario.ExisteUsuario(email, senha);
+        }
+
+        public async Task<string> RetornaIdUduario(string email)
+        {
+            return await _IUsuario.RetornaIdUduario(email);
         }
     }
 }

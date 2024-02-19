@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Aplicação.Interfaces
 {
-    internal interface IAplicacaoNoticia : IGenericosAplicacao<Noticia>
+    public interface IAplicacaoNoticia : IGenericosAplicacao<Noticia>
     {
         Task AdicionaNoticia(Noticia noticia);
         Task AtualizaNoticia(Noticia noticia);
